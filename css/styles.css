@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    display: block;
+    background-color: rgb(37, 36, 36);
+    margin: 1px;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.contenedor{
+    
+    display: inline-block;
+    width: 55vw;
+    height: 100vh;
+}
+/*****************ASIDE*********************/
+aside{
+    
+    display: inline-block;
+    width: 25vw;
+    height: 100vh;
+}
+.row{
+    display: block;
+}
+/**********************NAVBAR***********************/
+.nav{
+    margin: 1px;
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    width: 80vw;
+    height: 50px;
+    
+}
+.nav .nav-title{
+    align-items: center;
+    
+}
+.nav .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.nav .nav-links li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.nav .nav-links li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    display: flex;
+    background-color: rgb(18, 138, 178);
+    color: white;
+    border: 4px solid black;
+    box-shadow: 5px 2px 5px black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+/*****************PERFIL*********************/
+.perfil {
+    
+    /*width: 600px;*/
+    margin: 20px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 10px;
+    position: relative;
+}
+.perfil .cabecera{
+    background-color:rgb(4, 166, 166) ;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.user{
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 2px;
+}
+.perfil .cuerpo{
+    background-color:whitesmoke ;
+    height: 200px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.perfil .cuerpo h1 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.perfil .cuerpo h3 {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.perfil .cuerpo p {
+    
+    margin: 2px 0;
+    font-size: 0.8rem;
+}
+img{
+    width: 15px;
+    margin: 5px;
+    
+}
+a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*****************Educación*********************/
+.educacion {
+    
+    /*width: 600px;*/
+    margin: 20px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 5px;
+    
+}
+.educacion .cabecera2{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    height: 30px;
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.educacion .cabecera2 h3{
+    padding: 5px;
+    font-weight: 300;
+}
+.educacion .cuerpo{
+    background-color:whitesmoke ;
+    height: 200px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.educacion .cuerpo h2 {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.educacion .cuerpo h3 {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.educacion .cuerpo p {
+    margin: 2px 0;
+    font-size: 0.8rem;
+}
+
+/*****************solicitudes*********************/
+.solicitud {
+    
+    /*width: 260px;*/
+    margin: 20px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 5px;
+    
+}
+.solicitud .cabecera2{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    min-height: 30px;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex: 1;
+}
+.solicitud .cabecera2 button{
+    padding: 5px 10px;
+    font-weight: 300;
+    border-radius: 50%;
+}
+.solicitud .cabecera2 h3{
+    padding: 5px;
+    font-weight: 300;
+}
+.solicitud .cuerpo ul li{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 5px;
+}
+.solicitud .cuerpo ul li .nombre{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.solicitud .cuerpo ul li .icono{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/*****************CONEXIONES*********************/
+.conexiones {
+    
+    /*width: 260px;*/
+    margin: 20px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 5px;
+    
+}
+.conexiones .cabecera2{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    min-height: 30px;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex: 1;
+    
+}
+.conexiones .cabecera2 button{
+    padding: 5px;
+    font-weight: 300;
+    border-radius: 50%;
+}
+.conexiones .cabecera2 h3{
+    padding: 5px;
+    font-weight: 300;
+}
+.conexiones .cuerpo ul li{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 5px;
+}
+.conexiones .cuerpo ul li .nombre{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.ver{
+    border: 2px solid gray;
+    box-shadow: 4px 4px 4px grey;
+    padding: 10px;
+    
+}
+.ver a{
+    text-align: center;
+}
+h5{
+    font-size: large;
+    padding: 5px;
+}
